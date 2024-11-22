@@ -40,8 +40,10 @@ git clone https://github.com/your-username/disaster-preparedness-assistant.git
 cd disaster-preparedness-assistant
 
 Install Dependencies
+
 pip install -r requirements.txt
 
 env variables 
+
 SAMBANOVA_API_KEY=your_sambanova_api_key
 SERPER_API_KEY=your_serper_api_key
