@@ -8,7 +8,7 @@ import openai
 from langchain_community.utilities import GoogleSerperAPIWrapper
 
 # Configure OpenAI API (using SambaNova API)
-openai.api_key = os.environ.get("SAMBANOVA_API_KEY")
+openai.api_key = os.environ.get("OPENAI_API_KEY")
 openai.api_base = "https://api.sambanova.ai/v1"
 
 #Serper API for Google Search
